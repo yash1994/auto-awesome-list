@@ -2,12 +2,14 @@
 
 NVIDIA currently holds 1233 public repositories out of which 59 are related to data science and machine learning.
 
- ## Newly Added
+ ### Last Updated On:10-02-20
+
+## Newly Added
 
 | Name | Description | Language | Stars | License |
 | ---- | ----------- | :--------: | :-----: | :-------: |
 | [bLVNet-TAM](https://github.com/IBM/bLVNet-TAM) | The official Codes for NeurIPS 2019 paper. Quanfu Fan, Ricarhd Chen, Hilde Kuehne, Marco Pistoia, David Cox, "More Is Less: Learning Efficient Video Representations by Temporal Aggregation Modules" | Python | 29 | Apache License 2.0 |
-| [clai](https://github.com/IBM/clai) | Command Line Artificial Intelligence or CLAI is an open-sourced project from IBM Research aimed to bring the power of AI to the command line interface.  | Python | 18 | MIT License |
+| [clai](https://github.com/IBM/clai) | Command Line Artificial Intelligence or CLAI is an open-sourced project from IBM Research aimed to bring the power of AI to the command line interface.  | Python | 22 | MIT License |
 | [node-red-tensorflowjs](https://github.com/IBM/node-red-tensorflowjs) | Node-RED node with a TensorFlow.js Object Detection model | JavaScript | 15 | Apache License 2.0 |
 | [probzelus](https://github.com/IBM/probzelus) | ProbZelus is a library to extends the synchronous programming language Zelus with probabilistic programming. | OCaml | 11 | Apache License 2.0 |
 | [SIC](https://github.com/IBM/SIC) | Source code for paper Mroueh, Sercu, Rigotti, Padhi, dos Santos, "Sobolev Independence Criterion", NeurIPS 2019 | Python | 9 | Apache License 2.0 |

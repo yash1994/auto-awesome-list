@@ -1,12 +1,14 @@
 # [Microsoft](https://github.com/microsoft)
 
-Microsoft currently holds 2999 public repositories out of which 71 are related to data science and machine learning.
+Microsoft currently holds 3000 public repositories out of which 71 are related to data science and machine learning.
 
- ## Newly Added
+ ### Last Updated On:10-02-20
+
+## Newly Added
 
 | Name | Description | Language | Stars | License |
 | ---- | ----------- | :--------: | :-----: | :-------: |
-| [ApplicationInspector](https://github.com/microsoft/ApplicationInspector) | A source code analyzer built for surfacing features of interest and other characteristics to answer the question 'what's in it' using static analysis with a json based rules engine. Ideal for scanning components before use or detecting feature level changes. | C# | 3120 | MIT License |
+| [ApplicationInspector](https://github.com/microsoft/ApplicationInspector) | A source code analyzer built for surfacing features of interest and other characteristics to answer the question 'what's in it' using static analysis with a json based rules engine. Ideal for scanning components before use or detecting feature level changes. | C# | 3121 | MIT License |
 | [DialoGPT](https://github.com/microsoft/DialoGPT) | Large-scale pretraining for dialogue | Python | 604 | MIT License |
 | [25-days-of-serverless](https://github.com/microsoft/25-days-of-serverless) | Repository responsible for 25 days of Serverless challenges | N/A | 342 | MIT License |
 | [RockPaperScissorsLizardSpock](https://github.com/microsoft/RockPaperScissorsLizardSpock) | Rock, Paper, Scissors, Lizard, Spock - Sample Application | CSS | 303 | MIT License |
@@ -21,8 +23,8 @@ Microsoft currently holds 2999 public repositories out of which 71 are related t
 | [SPM-Tracker](https://github.com/microsoft/SPM-Tracker) | This is the implementation of CVPR'19 paper "SPM-Tracker: Series-Parallel Matching for Real-Time Visual Object Tracking" | Python | 11 | MIT License |
 | [logrl](https://github.com/microsoft/logrl) | Logarithmic Reinforcement Learning | Python | 11 | Other |
 | [DeepSpeed](https://github.com/microsoft/DeepSpeed) | DeepSpeed is a deep learning optimization library that makes distributed training easy, efficient, and effective. | Python | 11 | MIT License |
+| [IBAC-SNI](https://github.com/microsoft/IBAC-SNI) | Code to reproduce the NeurIPS 2019 paper "Generalization in Reinforcement Learning with Selective Noise Injection and Information Bottleneck" by Maximilian Igl, Kamil Ciosek, Yingzhen Li, Sebastian Tschiatschek, Cheng Zhang, Sam Devlin and Katja Hofmann. | Python | 10 | Other |
 | [FeaturizersLibrary](https://github.com/microsoft/FeaturizersLibrary) | A library of cross-platform, cross-framework, cross-programming language featurizers (operations in a data processing pipeline) that can be used during Machine Learning training and prediction activities. | C++ | 10 | MIT License |
-| [IBAC-SNI](https://github.com/microsoft/IBAC-SNI) | Code to reproduce the NeurIPS 2019 paper "Generalization in Reinforcement Learning with Selective Noise Injection and Information Bottleneck" by Maximilian Igl, Kamil Ciosek, Yingzhen Li, Sebastian Tschiatschek, Cheng Zhang, Sam Devlin and Katja Hofmann. | Python | 9 | Other |
 | [ZipLine](https://github.com/microsoft/ZipLine) | Text clustering algorithm, implemented in .NET | C# | 7 | MIT License |
 | [pytorch-luxor-lab](https://github.com/microsoft/pytorch-luxor-lab) | "Solving problems with Deep Learning: an in-depth example using PyTorch and its ecosystem" tutorial/lab | Python | 6 | MIT License |
 | [presidio-research](https://github.com/microsoft/presidio-research) | This package features data-science related tasks for developing new recognizers for Presidio. It is used for the evaluation of the entire system, as well as for evaluating specific PII recognizers or PII detection models. | Python | 6 | MIT License |
@@ -47,26 +49,26 @@ Microsoft currently holds 2999 public repositories out of which 71 are related t
 | ---- | ----------- | :--------: | :-----: | :-------: |
  | [CNTK](https://github.com/microsoft/CNTK) | Microsoft Cognitive Toolkit (CNTK), an open source deep-learning toolkit | C++ | 16670 | Other |
 | [LightGBM](https://github.com/microsoft/LightGBM) | A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks. | C++ | 10448 | MIT License |
-| [AirSim](https://github.com/microsoft/AirSim) | Open source simulator for autonomous vehicles built on Unreal Engine / Unity, from Microsoft AI & Research | C++ | 9519 | Other |
-| [ai-edu](https://github.com/microsoft/ai-edu) | AI education materials for Chinese students, teachers and IT professionals. | Jupyter Notebook | 7297 | Other |
+| [AirSim](https://github.com/microsoft/AirSim) | Open source simulator for autonomous vehicles built on Unreal Engine / Unity, from Microsoft AI & Research | C++ | 9520 | Other |
+| [ai-edu](https://github.com/microsoft/ai-edu) | AI education materials for Chinese students, teachers and IT professionals. | Jupyter Notebook | 7299 | Other |
 | [recommenders](https://github.com/microsoft/recommenders) | Best Practices on Recommendation Systems | Jupyter Notebook | 6932 | MIT License |
 | [botframework-sdk](https://github.com/microsoft/botframework-sdk) | Bot Framework provides the most comprehensive experience for building conversation applications | Python | 5870 | MIT License |
 | [nni](https://github.com/microsoft/nni) | An open source AutoML toolkit for neural architecture search, model compression and hyper-parameter tuning. | Python | 5331 | MIT License |
 | [ailab](https://github.com/microsoft/ailab) | Experience, Learn and Code the latest breakthrough innovations with Microsoft AI | C# | 5321 | MIT License |
-| [MMdnn](https://github.com/microsoft/MMdnn) | MMdnn is a set of tools to help users inter-operate among different deep learning frameworks. E.g. model conversion and visualization. Convert models between Caffe, Keras, MXNet, Tensorflow, CNTK, PyTorch Onnx and CoreML. | Python | 4433 | MIT License |
+| [MMdnn](https://github.com/microsoft/MMdnn) | MMdnn is a set of tools to help users inter-operate among different deep learning frameworks. E.g. model conversion and visualization. Convert models between Caffe, Keras, MXNet, Tensorflow, CNTK, PyTorch Onnx and CoreML. | Python | 4434 | MIT License |
 | [SandDance](https://github.com/microsoft/SandDance) | Visually explore, understand, and present your data. | TypeScript | 4082 | MIT License |
 | [SPTAG](https://github.com/microsoft/SPTAG) | A distributed approximate nearest neighborhood search (ANN) library which provides a high quality vector index build, search and distributed online serving toolkits for large scale vector search scenario. | C++ | 3651 | MIT License |
-| [nlp-recipes](https://github.com/microsoft/nlp-recipes) | Natural Language Processing Best Practices & Examples | Python | 3629 | MIT License |
+| [nlp-recipes](https://github.com/microsoft/nlp-recipes) | Natural Language Processing Best Practices & Examples | Python | 3631 | MIT License |
 | [malmo](https://github.com/microsoft/malmo) | Project Malmo is a platform for Artificial Intelligence experimentation and research built on top of Minecraft. We aim to inspire a new generation of research into challenging new problems presented by this unique environment. --- For installation instructions, scroll down to *Getting Started* below, or visit the project page for more information: | Java | 3462 | MIT License |
 | [DMTK](https://github.com/microsoft/DMTK) | Microsoft Distributed Machine Learning Toolkit | N/A | 2743 | MIT License |
+| [Quantum](https://github.com/microsoft/Quantum) | Microsoft Quantum Development Kit Samples | PowerShell | 2689 | MIT License |
 | [service-fabric](https://github.com/microsoft/service-fabric) | Service Fabric is a distributed systems platform for packaging, deploying, and managing stateless and stateful distributed applications and containers at large scale. | C++ | 2689 | MIT License |
-| [Quantum](https://github.com/microsoft/Quantum) | Microsoft Quantum Development Kit Samples | PowerShell | 2688 | MIT License |
 | [tensorwatch](https://github.com/microsoft/tensorwatch) | Debugging, monitoring and visualization for Python Machine Learning and Data Science | Jupyter Notebook | 2686 | MIT License |
 | [QuantumKatas](https://github.com/microsoft/QuantumKatas) | Tutorials and programming exercises for learning Q# and quantum computing | Jupyter Notebook | 2170 | MIT License |
-| [VoTT](https://github.com/microsoft/VoTT) | Visual Object Tagging Tool: An electron app for building end to end Object Detection Models from Images and Videos.  | TypeScript | 2151 | MIT License |
+| [VoTT](https://github.com/microsoft/VoTT) | Visual Object Tagging Tool: An electron app for building end to end Object Detection Models from Images and Videos.  | TypeScript | 2152 | MIT License |
 | [GraphEngine](https://github.com/microsoft/GraphEngine) | Microsoft Graph Engine | C# | 1832 | Other |
 | [onnxruntime](https://github.com/microsoft/onnxruntime) | ONNX Runtime: cross-platform, high performance scoring engine for ML models | C++ | 1810 | MIT License |
-| [human-pose-estimation.pytorch](https://github.com/microsoft/human-pose-estimation.pytorch) | The project is an official implement of our ECCV2018 paper  "Simple Baselines for Human Pose Estimation and Tracking(https://arxiv.org/abs/1804.06208)" | Python | 1714 | MIT License |
+| [human-pose-estimation.pytorch](https://github.com/microsoft/human-pose-estimation.pytorch) | The project is an official implement of our ECCV2018 paper  "Simple Baselines for Human Pose Estimation and Tracking(https://arxiv.org/abs/1804.06208)" | Python | 1715 | MIT License |
 | [dowhy](https://github.com/microsoft/dowhy) | DoWhy is a Python library for causal inference that supports explicit modeling and testing of causal assumptions. DoWhy is based on a unified language for causal inference, combining causal graphical models and potential outcomes frameworks.  | Python | 1617 | MIT License |
 | [pai](https://github.com/microsoft/pai) | Resource scheduling and cluster management for AI | JavaScript | 1584 | MIT License |
 | [AutonomousDrivingCookbook](https://github.com/microsoft/AutonomousDrivingCookbook) | Scenarios, tutorials and demos for Autonomous Driving | Jupyter Notebook | 1541 | MIT License |
@@ -76,7 +78,7 @@ Microsoft currently holds 2999 public repositories out of which 71 are related t
 | [rDSN](https://github.com/microsoft/rDSN) | Robust Distributed System Nucleus (rDSN) is an open framework for quickly building and managing high performance and robust distributed systems. | C++ | 910 | MIT License |
 | [presidio](https://github.com/microsoft/presidio) | Context aware, pluggable and customizable data protection and anonymization service for text and images | Python | 891 | MIT License |
 | [gated-graph-neural-network-samples](https://github.com/microsoft/gated-graph-neural-network-samples) | Sample Code for Gated Graph Neural Networks | Python | 812 | MIT License |
-| [TextWorld](https://github.com/microsoft/TextWorld) | ​TextWorld is a sandbox learning environment for the training and evaluation of reinforcement learning (RL) agents on text-based games. | Python | 792 | Other |
+| [TextWorld](https://github.com/microsoft/TextWorld) | ​TextWorld is a sandbox learning environment for the training and evaluation of reinforcement learning (RL) agents on text-based games. | Python | 791 | Other |
 | [LightLDA](https://github.com/microsoft/LightLDA) | Scalable, fast, and lightweight system for large-scale topic modeling | C++ | 780 | Other |
 | [EdgeML](https://github.com/microsoft/EdgeML) | This repository provides code for machine learning algorithms for edge devices developed at Microsoft Research India. | C++ | 765 | Other |
 | [Multiverso](https://github.com/microsoft/Multiverso) | Parameter server framework for distributed machine learning | C++ | 743 | MIT License |

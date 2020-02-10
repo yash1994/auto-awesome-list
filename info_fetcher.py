@@ -35,6 +35,8 @@ class Writer:
         self.header = "# n_org" + "\n\n" + "name_org currently holds n_total_repos public repositories out of which " \
                                            "n_repos are related to data science and machine learning." + "\n\n "
 
+        self.last_updated = "### Last Updated On:" + datetime.now().strftime("%d-%m-%y") + "\n\n"
+
         self.new_arrival_blob = "## Newly Added" + "\n\n" + "| Name | Description | Language | Stars | License |" + \
                                 "\n" \
                                 + "| ---- | ----------- | :--------: | :-----: | :-------: |" + "\n"
@@ -50,6 +52,8 @@ class Writer:
                 replace("n_total_repos", str(no_of_total_repos)). \
                 replace("n_repos", str(len(high_rated_repos) + len(newly_added_repos))). \
                 replace("name_org", org_name)
+
+            text += self.last_updated
 
             if newly_added_repos:
                 text += self.new_arrival_blob

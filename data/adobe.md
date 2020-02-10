@@ -2,7 +2,9 @@
 
 Adobe currently holds 399 public repositories out of which 14 are related to data science and machine learning.
 
- ## Newly Added
+ ### Last Updated On:10-02-20
+
+## Newly Added
 
 | Name | Description | Language | Stars | License |
 | ---- | ----------- | :--------: | :-----: | :-------: |
@@ -17,7 +19,7 @@ Adobe currently holds 399 public repositories out of which 14 are related to dat
 | ---- | ----------- | :--------: | :-----: | :-------: |
  | [antialiased-cnns](https://github.com/adobe/antialiased-cnns) | Antialiasing cnns to improve stability and accuracy. In ICML 2019. | Python | 1001 | Other |
 | [NLP-Cube](https://github.com/adobe/NLP-Cube) | Natural Language Processing Pipeline - Sentence Splitting, Tokenization, Lemmatization, Part-of-speech Tagging and Dependency Parsing | Python | 273 | Other |
-| [ride](https://github.com/adobe/ride) | REST API Automation framework for functional, integration, fuzzing, and performance testing | Java | 43 | Other |
+| [ride](https://github.com/adobe/ride) | REST API Automation framework for functional, integration, fuzzing, and performance testing | Java | 44 | Other |
 | [Chronikis](https://github.com/adobe/Chronikis) | A compiler for Bayesian time series models. | Haskell | 17 | Apache License 2.0 |
 | [toughday2](https://github.com/adobe/toughday2) | Toughday2 is a multithreaded performance testing framework that can be used to benchmark remote applications. It was designed with developers in mind, allowing them to use the full power of the Java language in order to create complex tests or write extensions. It stays true to the philosophy "Do one thing and do it well". | Java | 14 | Apache License 2.0 |
 | [experience-platform-dsw-reference](https://github.com/adobe/experience-platform-dsw-reference) | Data Science Workspace containing sample recipes, datasets and notebooks | Python | 14 | Other |
