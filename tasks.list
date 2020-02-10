@@ -1,0 +1,1031 @@
+
+web page tagging
+non-linear elasticity
+medical question pair similarity computation
+bayesian inference
+action parsing
+frame duplication detection
+text-to-speech synthesis
+active observation completion
+stereo matching
+als detection
+multiview learning
+speaking style synthesis
+real-time instance segmentation
+forgery
+graph-to-sequence
+visual social relationship recognition
+multiobjective optimization
+group detection in crowds
+image declipping
+eeg artifact removal
+video correspondence flow
+visual text correction
+patient outcomes
+business taxonomy construction
+multiple people tracking
+drum transcription
+activity prediction
+crowd counting
+weakly supervised object detection
+entity resolution
+privacy preserving deep learning
+gunshot detection
+point processes
+semantic role labeling
+transform a video into a comics
+scene recognition
+data-to-text generation
+tensor networks
+learning to paint
+unsupervised domain adaptation
+photo-to-caricature translation
+zero shot segmentation
+robotic grasping
+3d object recognition
+lung disease classification
+gaze estimation
+blind image quality assessment
+multi-word expression embedding
+computational manga
+4d spatio temporal semantic segmentation
+lung nodule classification
+safety perception recognition
+materials imaging
+multi-person pose estimation and tracking
+omniglot
+image dehazing
+transparency separation
+protein function prediction
+video inpainting
+open-domain question answering
+human interaction recognition
+word embeddings
+sleep quality
+face alignment
+anomaly detection in surveillance videos
+direction of arrival estimation
+joint ner and classification
+sleep arousal detection
+multimodal activity recognition
+image restoration
+anaphora resolution
+intent classification
+clickbait detection
+dense video captioning
+pornography detection
+time-to-event prediction
+simultaneous localization and mapping
+few-shot learning
+constituency grammar induction
+chemical reaction prediction
+audio-visual speech recognition
+window detection
+eye tracking
+text-to-sql
+3d human pose estimation
+3d human dynamics
+skin lesion identification
+diabetes prediction
+time series classification
+semantic parsing
+detect forged images and videos
+molecular dynamics
+outlier ensembles
+generalized zero-shot learning - unseen
+line art colorization
+trademark retrieval
+aesthetics quality assessment
+vowel classification
+outlier detection
+time series forecasting
+time series alignment
+multi-word expression sememe prediction
+hyperparameter optimization
+multimodal emotion recognition
+boundary detection
+hierarchical reinforcement learning
+nested mention recognition
+linguistic acceptability
+3d multi-person pose estimation (absolute)
+abuse detection
+readmission prediction
+cross-modal retrieval
+sentence pair modeling
+image comprehension
+3d multi-person pose estimation
+denoising
+lung cancer diagnosis
+gaussian processes
+word sense induction
+chinese zero pronoun resolution
+paraphrase identification
+missing markers reconstruction
+population mapping
+steering control
+object tracking
+depiction invariant object recognition
+audio super-resolution
+physical simulations
+entity linking
+opinion mining
+multimodal sentiment analysis
+sensor modeling
+image registration
+program synthesis
+video super-resolution
+modeling local geometric structure
+fine-grained visual recognition
+intrinsic image decomposition
+reading comprehension
+hyperspectral image segmentation
+computational phenotyping
+medical code prediction
+acoustic question answering
+motion correction in multishot mri
+dense pixel correspondence estimation
+data summarization
+image captioning
+transliteration
+sar image despeckling
+audio-visual synchronization
+domain adaptation
+anomaly detection in edge streams
+eeg denoising
+speaker separation
+video question answering
+color image compression artifact reduction
+viewpoint estimation
+spindle detection
+gait identification
+hate speech detection
+multi-label text classification
+cancer metastasis detection
+human activity recognition
+multi-person pose estimation
+probabilistic programming
+human-object interaction detection
+fine-grained action detection
+fine-grained image recognition
+single-view 3d reconstruction
+texture classification
+vehicle key-point and orientation estimation
+text matching
+active learning
+counterspeech detection
+multi-labeled relation extraction
+combinatorial optimization
+gender bias detection
+policy gradient methods
+temporal action proposal generation
+text attribute transfer
+talking head generation
+audio-visual video captioning
+visual object tracking
+spectrum cartography
+multi-oriented scene text detection
+scene flow estimation
+one-shot learning
+atrial fibrillation detection
+emotion recognition in conversation
+sketch recognition
+automl
+visual speech recognition
+automatic writing
+constituency parsing
+predicate detection
+multi-label classification
+part-of-speech tagging
+image recognition
+online review rating
+multi-agent reinforcement learning
+scene segmentation
+matching disparate images
+cube engraving classification
+music auto-tagging
+image retrieval
+cross-lingual bitext mining
+document layout analysis
+weakly-supervised instance segmentation
+learning word embeddings
+spoken dialogue systems
+gan image forensics
+diffeomorphic medical image registration
+object classification
+timeline summarization
+homography estimation
+no-reference image quality assessment
+texture synthesis
+handwritten digit recognition
+molecule interpretation
+motion capture
+person re-identification
+displaced people recognition
+medical image generation
+shape representation of 3d point clouds
+drug discovery
+multiple object forecasting
+cantilever beam
+optical character recognition
+action detection
+disease trajectory forecasting
+photometric redshift estimation
+depth estimation
+spoof detection
+language identification
+sparse learning
+atrial fibrillation recurrence estimation
+multi-label learning
+remote sensing image classification
+semantic dependency parsing
+time series denoising
+robust speech recognition
+face generation
+physical attribute prediction
+audio denoising
+behavioral malware classification
+dictionary learning
+query wellformedness
+detecting shadows
+detecting image manipulation
+joint multilingual sentence representations
+super resolution
+human detection
+malware detection
+sentence embeddings
+neural network compression
+cross-modal information retrieval
+vision-language navigation
+iris recognition
+incongruity detection
+weakly supervised action localization
+mammogram
+normalising flows
+saliency detection
+multi-modal
+few-shot relation classification
+pose tracking
+jpeg artifact removal
+stance detection
+rain removal
+3d pose estimation
+line segment detection
+fine-grained image classification
+text-to-image
+breast mass segmentation in whole mammograms
+word spotting in handwritten documents
+spatio-temporal action localization
+audio signal recognition
+style generalization
+material recognition
+sarcasm detection
+semantic textual similarity
+one shot image to image translation
+multiple instance learning
+text classification
+single-cell modeling
+representation learning
+coreference resolution
+reader-aware summarization
+large vocabulary continuous speech recognition
+outdoor light source estimation
+acoustic modelling
+neural architecture search
+visual recognition
+colorization
+camera relocalization
+hand pose estimation
+load forecasting
+person search
+face detection
+scene text detection
+ad-hoc information retrieval
+lexical analysis
+q-learning
+metric learning
+parallel corpus mining
+anomaly detection
+thoracic disease classification
+speculation detection
+language modelling
+blind image deblurring
+small-footprint keyword spotting
+event-based vision
+data augmentation
+time series
+multi-modal subspace clustering
+object recognition
+visual question answering
+low-resource neural machine translation
+multi-view learning
+sign language recognition
+image generation
+dehazing
+3d shape generation
+recipe generation
+stock prediction
+unsupervised sentence compression
+cross-lingual entity linking
+argument mining
+stock market prediction
+interactive segmentation
+multi-modal person identification
+kiss detection
+landmark tracking
+self-driving cars
+skeleton based action recognition
+action localization
+image cropping
+thermal image denoising
+malware classification
+manner of articulation detection
+continuous control
+car racing
+nested named entity recognition
+distributional reinforcement learning
+3d instance segmentation
+music source separation
+text categorization
+image/document clustering
+motion forecasting
+medical image registration
+overlapping mention recognition
+breast cancer histology image classification
+autonomous vehicles
+multi-human parsing
+few-shot camera-adaptive color constancy
+grammatical error correction
+answer selection
+speech enhancement
+structured prediction
+sleep stage detection
+localization in video forgery
+network congestion control
+dead-reckoning prediction
+negation detection
+story visualization
+skin
+image categorization
+sentence compression
+participant intervention comparison outcome extraction
+pulsar prediction
+blood pressure estimation
+emotion recognition in context
+human dynamics
+video salient object detection
+speech recognition
+semantic composition
+text clustering
+complex word identification
+3d room layouts from a single rgb panorama
+music genre transfer
+sql chatbots
+twitter event detection
+intelligent surveillance
+eeg decoding
+entity extraction
+medical super-resolution
+open set learning
+3d face reconstruction
+abnormal event detection in video
+person identification
+counterfactual inference
+3d reconstruction
+bird species classification with audio-visual data
+video summarization
+image matching
+age-related macular degeneration classification
+text summarization
+imputation
+3d multi-object tracking
+epidemiology
+shadow detection
+model compression
+automatic machine learning model selection
+joint vertebrae identification and localization in spinal ct images
+constrained diffeomorphic image registration
+zero-shot learning
+jpeg compression artifact reduction
+end-to-end speech recognition
+dialogue state tracking
+semi-supervised image classification
+multiple object tracking
+finger dorsal image spoof detection
+total magnetization
+mortality prediction
+fraud detection
+speech-to-gesture translation
+conversational response selection
+3d facial expression recognition
+multi-modal image segmentation
+shadow detection and removal
+finding pulmonary nodules in large-scale ct images
+air pollution prediction
+acoustic scene classification
+stroke classification
+image-based localization
+passage re-ranking
+quantum machine learning
+image-to-image translation
+textual analogy parsing
+eeg
+muscular movement recognition
+face sketch synthesis
+motion estimation
+hyperspectral unmixing
+real-time visual tracking
+point cloud generation
+prediction of cancer cell line sensitivity
+click-through rate prediction
+3d face animation
+tomographic reconstructions
+multi-object tracking
+real-time object detection
+disparity estimation
+epilepsy prediction
+content-based image retrieval
+word sense disambiguation
+latent variable models
+demosaicking
+egocentric pose estimation
+quantization
+document to image conversion
+pose prediction
+fake image detection
+emotion recognition
+image shadow removal
+negation scope resolution
+speaker identification
+diabetic retinopathy detection
+single image deraining
+crime prediction
+pulmonary artery–vein classification
+grammatical error detection
+graph embedding
+atrial fibrillation
+non-intrusive load monitoring
+salt-and-pepper noise removal
+crowd flows prediction
+unsupervised spatial clustering
+optical flow estimation
+caricature
+deception detection
+hand gesture recognition
+hand-gesture recognition
+motion segmentation
+facial expression recognition
+age-invariant face recognition
+unbalanced segmentation
+entity embeddings
+crop classification
+sign language translation
+visual crowd analysis
+behavioral malware detection
+detection of instrumentals musical tracks
+supervised video summarization
+entity disambiguation
+cyber attack detection
+medical report generation
+electromyography (emg)
+depth map super-resolution
+thermal infrared object tracking
+cross-lingual semantic textual similarity
+face swapping
+classification of hyperspectral images
+twitter bot detection
+art analysis
+video captioning
+action classification
+dialogue generation
+synthetic-to-real translation
+time series analysis
+birl
+image matting
+stock trend prediction
+low-dose x-ray ct reconstruction
+curved text detection
+face to face translation
+birds eye view object detection
+unsupervised mnist
+typeface completion
+lesion segmentation
+image quality estimation
+3d object reconstruction
+text effects transfer
+3d character animation from a single photo
+seismic interpretation
+sequential diagnosis
+gesture-to-gesture translation
+license plate recognition
+arabic sentiment analysis
+medical image segmentation
+abstract argumentation
+document image classification
+goal-oriented dialog
+fake news detection
+environmental sound classification
+cross-domain iris presentation attack detection
+air quality inference
+bone suppression from dual energy chest x-rays
+point cloud registration
+hand segmentation
+3d object detection
+speech separation
+3d depth estimation
+twitter sentiment analysis
+relation classification
+skull stripping
+image stylization
+speech synthesis
+stereo image super-resolution
+spelling correction
+named entity recognition
+pulmonary embolism detection
+sound event detection
+stereo depth estimation
+spoken language understanding
+imitation learning
+music information retrieval
+cross-lingual transfer
+hyperspectral image classification
+time series prediction
+sentence classification
+link quality estimation
+road damage detection
+cross-domain named entity recognition
+few-shot imitation learning
+facial inpainting
+rf-based gesture recognition
+multi-goal reinforcement learning
+spatial relation recognition
+sentence ordering
+voice query recognition
+instance search
+person retrieval
+object reconstruction
+transition-based dependency parsing
+muscle force prediction
+relational reasoning
+surgical gesture recognition
+offline handwritten chinese character recognition
+aerial video saliency prediction
+embodied question answering
+histopathological image classification
+single-image-based hdr reconstruction
+flooded building segmentation
+pornography detection in videos
+autonomous navigation
+image stitching
+single image dehazing
+network pruning
+semantic similarity
+android malware detection
+melody extraction
+panel extraction
+image enhancement
+scene text recognition
+distant speech recognition
+rgb-t tracking
+human parsing
+smart grid prediction
+cross-view image-to-image translation
+morphological inflection
+human grasp contact prediction
+cross-lingual
+network embedding
+video saliency detection
+extract aspect
+action recognition in videos
+depth image estimation
+unsupervised video summarization
+extractive document summarization
+3d medical imaging segmentation
+weakly-supervised object localization
+ecg classification
+vehicle re-identification
+phrase grounding
+infrared and visible image fusion
+medical relation extraction
+code search
+real-time semantic segmentation
+co-saliency detection
+texture image retrieval
+face transfer
+unsupervised anomaly detection
+image paragraph captioning
+3d human action recognition
+spectral estimation
+text style transfer
+dialog act classification
+voice conversion
+document classification
+accuracy metrics
+clustering multivariate time series
+relation extraction
+large-scale person re-identification
+video style transfer
+joint entity and relation extraction
+network intrusion detection
+stress-strain relation
+natural language transduction
+image quality assessment
+meeting summarization
+survival analysis
+image classification
+video quality assessment
+image clustering
+amr parsing
+autonomous flight (dense forest)
+length-of-stay prediction
+native language identification
+face presentation attack detection
+multilingual word embeddings
+fine-grained visual categorization
+image-to-video person re-identification
+irregular text recognition
+multi-task learning
+radio interferometry
+disguised face verification
+band gap
+automatic post-editing
+music generation
+out-of-distribution detection
+prediction of occupancy grid maps
+whole mammogram classification
+time series averaging
+sketch
+automatic sleep stage classification
+language-based temporal localization
+unsupervised part-of-speech tagging
+visual storytelling
+keypoint detection
+scene classification
+sketch-based image retrieval
+sentence embeddings for biomedical texts
+temporal action localization
+scene graph generation
+document summarization
+language acquisition
+predicting patient outcomes
+knowledge base question answering
+steganographics
+novel view synthesis
+rumour detection
+multi-label classification of biomedical texts
+image steganography
+recommendation systems
+image reconstruction
+segmentation of remote sensing imagery
+logo recognition
+autonomous driving
+product recommendation
+face recognition
+self-organized clustering
+stereo matching hand
+electrocardiography (ecg)
+scene generation
+visual tracking
+scene parsing
+visual dialog
+knee osteoarthritis prediction
+continual learning
+knowledge tracing
+materials screening
+gait recognition
+tomography
+denoising of radar micro-doppler signatures
+session-based recommendations
+lipreading
+style transfer
+sentiment analysis
+object detection
+multivariate time series imputation
+brain segmentation
+time series clustering
+monocular depth estimation
+distributed optimization
+spatio-temporal forecasting
+color constancy
+bayesian optimisation
+meta-learning
+neural network security
+foveation
+heartbeat classification
+cross-language text summarization
+camera localization
+malaria risk exposure prediction
+text-independent speaker recognition
+causal inference
+text-independent speaker verification
+image text removal
+machine translation
+lexical simplification
+surface normals estimation
+rf-based visual tracking
+magnetic resonance fingerprinting
+community question answering
+online ranker evaluation
+speech emotion recognition
+feature selection
+3d semantic instance segmentation
+density estimation
+occluded face detection
+multi-document summarization
+person recognition
+unsupervised person re-identification
+product categorization
+facies classification
+speaker diarization
+depth and camera motion
+multivariate time series forecasting
+mass segmentation from mammograms
+one-class classifier
+code generation
+information retrieval
+home activity monitoring
+news annotation
+aspect-based sentiment analysis
+audio generation
+spectral estimation from a single rgb image
+audio tagging
+sql-to-text
+fault detection
+stock price prediction
+point cloud super resolution
+sensor fusion
+damaged building detection
+shooter localization
+weakly-supervised temporal action localization
+morphological analysis
+disease prediction
+kb-to-language generation
+interpretable machine learning
+instance segmentation
+chinese word segmentation
+human instance segmentation
+open information extraction
+information extraction
+relationship extraction (distant supervised)
+topic models
+protein secondary structure prediction
+humor detection
+3d absolute human pose estimation
+moving point cloud processing
+bird classification
+saliency prediction
+multi-view subspace clustering
+gravitational wave detection
+local color enhancement
+chatbot
+multiple action detection
+document binarization
+sentence embedding
+semi-supervised video object segmentation
+skin cancer classification
+gaze prediction
+text generation
+multi-grained named entity recognition
+brain tumor segmentation
+image super-resolution
+model selection
+face reenactment
+emg signal prediction
+skin lesion classification
+entity alignment
+time offset calibration
+markerless motion capture
+quantum state tomography
+salient object detection
+3d object super-resolution
+relation mention extraction
+the semantic segmentation of remote sensing imagery
+recognizing seven different dastgahs of iranian classical music
+multimodal unsupervised image-to-image translation
+keyword extraction
+intent detection
+ultrasound
+outdoor positioning
+memex question answering
+surgical skills evaluation
+bird audio detection
+semantic segmentation
+3d shape representation
+ancient text restoration
+weakly-supervised semantic segmentation
+image denoising
+online multi-object tracking
+speaker verification
+conversational response generation
+deep attention
+arrhythmia detection
+question answering
+reconstruction
+few-shot image classification
+text-to-image generation
+cross-lingual natural language inference
+text simplification
+talking face generation
+data mining
+medial knee jrf prediction
+chinese
+lung nodule detection
+problem decomposition
+deblurring
+visual sentiment prediction
+photoplethysmography (ppg)
+drawing pictures
+depth completion
+dependency parsing
+extreme multi-label classification
+edge detection
+video object segmentation
+table detection
+automated feature engineering
+image animation
+handwritten chinese text recognition
+irregular time series
+single-image blind deblurring
+multilingual text classification
+hypernym discovery
+ecommerce
+defocus estimation
+lemmatization
+deception detection in videos
+ccg supertagging
+chunking
+object counting
+face anonymization
+temporal information extraction
+matrix completion
+interest point detection
+music genre recognition
+transfer learning
+medical diagnosis
+unsupervised object localization
+portfolio optimization
+unsupervised machine translation
+question generation
+motion detection
+transfer reinforcement learning
+code summarization
+sequence-to-sequence speech recognition
+video prediction
+pneumonia detection
+knowledge base population
+food recognition
+medical named entity recognition
+cross-lingual document classification
+formation energy
+cloud detection
+traffic data imputation
+low-rank matrix completion
+keyword spotting
+factual visual question answering
+predict future video frames
+image deconvolution
+white matter fiber tractography
+artificial life
+tokenization
+write computer programs from specifications
+semantic role labeling (predicted predicates)
+audio classification
+music modeling
+activity recognition
+entity typing
+extract aspect-polarity tuple
+brain decoding
+text-dependent speaker verification
+multi-label image retrieval
+temporal localization
+image imputation
+few-shot semantic segmentation
+abstractive text summarization
+prosody prediction
+pain intensity regression
+weakly-supervised panoptic segmentation
+brain ventricle localization and segmentation in 3d ultrasound images
+feature importance
+extracting buildings in remote sensing images
+learning to execute
+pointgoal navigation
+future prediction
+word alignment
+prepositional phrase attachment
+animation
+classification of variable stars
+lossy-compression artifact reduction
+smile recognition
+low-light image enhancement
+horizon line estimation
+bridging anaphora resolution
+zero-shot machine translation
+heart rate estimation
+music emotion recognition
+stochastic optimization
+outcome prediction in multimodal mri
+contour detection
+text spotting
+machine reading comprehension
+subjectivity analysis
+multi-armed bandits
+face verification
+intrusion detection
+yield mapping in apple orchards
+cryptanalysis
+lexical normalization
+slot filling
+3d semantic segmentation
+material classification
+abstract anaphora resolution
+detecting adverts
+personality trait recognition
+chord recognition
+3d object classification
+unsupervised facial landmark detection
+trajectory prediction
+partial domain adaptation
+task-oriented dialogue systems
+pose estimation
+comics processing
+morphological tagging
+auxiliary learning
+seismic detection
+metamerism
+medical x-ray image segmentation
+phrase vector embedding
+conditional image generation
+advertising
+multimodal machine translation
+motion detection in non-stationary scenes
+crowds
+video semantic segmentation
+breast density classification
+clustering algorithms evaluation
+sleep micro-event detection
+ecg risk stratification
+music classification
+chinese named entity recognition
+deepfake detection
+acoustic novelty detection
+multi-speaker source separation
+sequential pattern mining
+metal artifact reduction
+multi-hop reading comprehension
+mathematical proofs
+human part segmentation
+x-ray diffraction (xrd)
+traffic prediction
+image inpainting
+emotion classification
+video alignment
+motion prediction
+3d multi-person pose estimation (root-relative)
+web credibility
+electron tomography
+image compression
+dimensionality reduction
+speaker recognition
+video-based person re-identification
+image-to-gps verification
+scene-aware dialogue
+text augmentation
+table-based fact verification
+seizure prediction
+scene understanding
+visual place recognition
+gesture recognition
+breast cancer detection
+image manipulation detection
+dependency grammar induction
+automated theorem proving
+observation completion
+mitosis detection
+feature engineering
+video classification
+one-shot 3d action recognition
+continuous object recognition
+computed tomography (ct)
+hyperspectral
+md17 dataset
+image outpainting
+egocentric activity recognition
+image similarity search
+implicit discourse relation classification
+domain generalization
+seizure detection
+efficient exploration
+object localization
+vnla
+unsupervised video object segmentation
+robot navigation
+dynamic texture recognition
+natural language inference
+document ranking
+visual localization
+unsupervised image-to-image translation
+piano music modeling
+image augmentation
+question similarity
+speculation scope resolution
+active object localization
+multiview gait recognition
