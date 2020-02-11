@@ -35,7 +35,8 @@ Tensorflow,https://github.com/tensorflow
 Keras,https://github.com/keras-team
 Pytorch,https://github.com/pytorch
 Fastai,https://github.com/fastai
-Stanford NLP,https://github.com/stanfordnlp
+Stanford-NLP,https://github.com/stanfordnlp
 Explosion.ai,https://github.com/explosion
-Hugging Face,https://github.com/huggingface
-RARE Technologies,https://github.com/RaRe-Technologies
+Hugging-Face,https://github.com/huggingface
+RARE-Technologies,https://github.com/RaRe-Technologies
+DMLC,https://github.com/dmlc
