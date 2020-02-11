@@ -4,7 +4,9 @@ import json
 import requests
 from datetime import datetime, timedelta
 from dateutil import parser
+from config import Config
 
+cfg = Config()
 
 def ngrams(s, n):
     s = s.lower()
@@ -83,7 +85,7 @@ class Fetcher:
     def __init__(self):
 
         self.API_BASE_URL = "https://api.github.com"
-        self.API_TOKEN = "a90d00174ace2e47e4cbafe490610689a98903a0"
+        self.API_TOKEN = cfg.get_configs()["api_key"]
         self.WATCH_LIST_FNAME = "watch.list"
         self.TOPICS_LIST_FNAME = "topics.list"
         self.TASKS_LIST_FNAME = "tasks.list"
