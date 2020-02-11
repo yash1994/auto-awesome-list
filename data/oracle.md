@@ -1,22 +1,23 @@
 # [Oracle](https://github.com/oracle)
 
-Oracle currently holds 199 public repositories out of which 10 are related to data science and machine learning.
+Oracle currently holds 200 public repositories out of which 11 are related to data science and machine learning.
 
- ### Last Updated On:10-02-20
+ ### Last Updated On:11-02-20
 
 ## Newly Added
 
 | Name | Description | Language | Stars | License |
 | ---- | ----------- | :--------: | :-----: | :-------: |
+| [oracle-functions-samples](https://github.com/oracle/oracle-functions-samples) | Examples demonstrating how to use Oracle Functions | Python | 1 | Other |
 | [cloud-asset-oda-recruitmentbot](https://github.com/oracle/cloud-asset-oda-recruitmentbot) | Sample Recruitment Bot for Oracle Digital Assistant | JavaScript | 0 | Other |
 
 ## Highly Rated
 
 | Name | Description | Language | Stars | License |
 | ---- | ----------- | :--------: | :-----: | :-------: |
- | [graal](https://github.com/oracle/graal) | GraalVM: Run Programs Faster Anywhere :rocket: | Java | 11772 | Other |
-| [opengrok](https://github.com/oracle/opengrok) | OpenGrok is a fast and usable source code search and cross reference engine, written in Java | Java | 2855 | Other |
-| [Skater](https://github.com/oracle/Skater) | Python Library for Model Interpretation/Explanations | Python | 881 | Universal Permissive License v1.0 |
+ | [graal](https://github.com/oracle/graal) | GraalVM: Run Programs Faster Anywhere :rocket: | Java | 11778 | Other |
+| [opengrok](https://github.com/oracle/opengrok) | OpenGrok is a fast and usable source code search and cross reference engine, written in Java | Java | 2856 | Other |
+| [Skater](https://github.com/oracle/Skater) | Python Library for Model Interpretation/Explanations | Python | 882 | Universal Permissive License v1.0 |
 | [graphpipe](https://github.com/oracle/graphpipe) | Machine Learning Model Deployment Made Simple | Makefile | 690 | Other |
 | [python-cx_Oracle](https://github.com/oracle/python-cx_Oracle) | Python interface to Oracle Database conforming to the Python DB API 2.0 specification. | C | 571 | Other |
 | [soda-for-java](https://github.com/oracle/soda-for-java) | SODA (Simple Oracle Document Access) for Java is an Oracle library for writing Java apps that work with JSON (and not only JSON!) in the Oracle Database. SODA allows your Java app to use the Oracle Database as a NoSQL document store. | Java | 44 | Other |

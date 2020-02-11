@@ -1,8 +1,8 @@
 # [VMware](https://github.com/vmware)
 
-VMware currently holds 180 public repositories out of which 5 are related to data science and machine learning.
+VMware currently holds 181 public repositories out of which 5 are related to data science and machine learning.
 
- ### Last Updated On:10-02-20
+ ### Last Updated On:11-02-20
 
 ## Newly Added
 

@@ -2,13 +2,13 @@
 
 Amazon currently holds 100 public repositories out of which 7 are related to data science and machine learning.
 
- ### Last Updated On:10-02-20
+ ### Last Updated On:11-02-20
 
 ## Highly Rated
 
 | Name | Description | Language | Stars | License |
 | ---- | ----------- | :--------: | :-----: | :-------: |
- | [amazon-dsstne](https://github.com/amzn/amazon-dsstne) | Deep Scalable Sparse Tensor Network Engine (DSSTNE) is an Amazon developed library for building Deep Learning (DL) machine learning (ML) models  | C++ | 4411 | Apache License 2.0 |
+ | [amazon-dsstne](https://github.com/amzn/amazon-dsstne) | Deep Scalable Sparse Tensor Network Engine (DSSTNE) is an Amazon developed library for building Deep Learning (DL) machine learning (ML) models  | C++ | 4410 | Apache License 2.0 |
 | [sketch-constructor](https://github.com/amzn/sketch-constructor) | Read/write/manipulate Sketch files in Node without Sketch plugins! | JavaScript | 383 | Apache License 2.0 |
 | [emukit](https://github.com/amzn/emukit) | A Python-based toolbox of various methods in uncertainty quantification and statistical emulation: multi-fidelity, experimental design, Bayesian optimisation, Bayesian quadrature, etc.  | Python | 175 | Apache License 2.0 |
 | [xfer](https://github.com/amzn/xfer) | Transfer Learning library for Deep Neural Networks. | Jupyter Notebook | 138 | Apache License 2.0 |

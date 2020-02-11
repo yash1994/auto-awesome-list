@@ -8,6 +8,7 @@ from config import Config
 
 cfg = Config()
 
+
 def ngrams(s, n):
     s = s.lower()
     s = re.sub(r'[^a-zA-Z0-9\s]', ' ', s)
@@ -50,7 +51,7 @@ class Writer:
     def write_information(self, org_name, high_rated_repos, newly_added_repos, no_of_total_repos, url):
 
         with open(os.path.join(self.data_directory_path, org_name.lower() + self.ext), "w") as outfile:
-            text = self.header.replace("n_org", generate_hyperlink(org_name, url)).\
+            text = self.header.replace("n_org", generate_hyperlink(org_name, url)). \
                 replace("n_total_repos", str(no_of_total_repos)). \
                 replace("n_repos", str(len(high_rated_repos) + len(newly_added_repos))). \
                 replace("name_org", org_name)
@@ -174,7 +175,7 @@ class Fetcher:
         return high_rated_repos, newly_added_repos
 
     def fetch_data(self):
-
+        stats = []
         for org in self.watch_list:
             org_name, url = org.split(",")
             org_id = url.split("/")[-1]
@@ -182,7 +183,7 @@ class Fetcher:
             if not err:
                 filtered_by_topics = self.filter_repos_based_on_topics(data)
 
-                if len(filtered_by_topics) < 20:
+                if len(filtered_by_topics) < 30:
                     very_less = True
                 else:
                     very_less = False
@@ -199,10 +200,41 @@ class Fetcher:
                 print("Fetched {} repos from {} and wrote info for {} repos".format(len(data), url,
                                                                                     len(high_rated_repos) +
                                                                                     len(newly_added_repos)))
+                stats.append((org_name, len(high_rated_repos) + len(newly_added_repos)))
             else:
                 print("Error {} in fetching repo data for {} : {}".format(data, org_name, url))
+
+        return stats
+
+
+class Ranker:
+    def __init__(self):
+        self.readme_file = "README.md"
+
+    def re_rank(self, stats):
+        with open(self.readme_file, "r") as infile:
+            txt = infile.read()
+
+        sorted_order = sorted(stats, key=lambda s: s[1], reverse=True)
+
+        new_order = "\n\n"
+
+        for so in sorted_order:
+            new_order += "- [{}](data/{}.md)\n".format(so[0], so[0].lower())
+
+        new_order += "\n"
+
+        txt = re.sub(r"- \[[A-Za-z0-9\s\-\.]+\]\(.*\)\n", "", txt)
+        txt = txt.split("\n\n\n")
+
+        new_readme_str = txt[0] + new_order + txt[1]
+
+        with open(self.readme_file, "w") as outfile:
+            outfile.write(new_readme_str)
 
 
 if __name__ == "__main__":
     fetcher = Fetcher()
-    fetcher.fetch_data()
+    ranker = Ranker()
+    stats = fetcher.fetch_data()
+    ranker.re_rank(stats)

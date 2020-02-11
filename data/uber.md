@@ -2,21 +2,21 @@
 
 Uber currently holds 172 public repositories out of which 16 are related to data science and machine learning.
 
- ### Last Updated On:10-02-20
+ ### Last Updated On:11-02-20
 
 ## Highly Rated
 
 | Name | Description | Language | Stars | License |
 | ---- | ----------- | :--------: | :-----: | :-------: |
  | [react-vis](https://github.com/uber/react-vis) | Data Visualization Components | JavaScript | 6816 | MIT License |
-| [ludwig](https://github.com/uber/ludwig) | Ludwig is a toolbox built on top of TensorFlow that allows to train and test deep learning models without the need to write code. | Python | 6404 | Apache License 2.0 |
+| [ludwig](https://github.com/uber/ludwig) | Ludwig is a toolbox built on top of TensorFlow that allows to train and test deep learning models without the need to write code. | Python | 6406 | Apache License 2.0 |
 | [RIBs](https://github.com/uber/RIBs) | Uber's cross-platform mobile architecture framework. | Java | 5322 | Apache License 2.0 |
-| [prototool](https://github.com/uber/prototool) | Your Swiss Army Knife for Protocol Buffers | Go | 4087 | MIT License |
+| [prototool](https://github.com/uber/prototool) | Your Swiss Army Knife for Protocol Buffers | Go | 4088 | MIT License |
 | [aresdb](https://github.com/uber/aresdb) | A GPU-powered real-time analytics storage and query engine.  | Go | 2264 | Apache License 2.0 |
 | [luma.gl](https://github.com/uber/luma.gl) | High-performance Toolkit for WebGL-based Data Visualization | JavaScript | 1612 | Other |
 | [AthenaX](https://github.com/uber/AthenaX) | SQL-based streaming analytics platform at scale | Java | 1084 | Apache License 2.0 |
-| [manifold](https://github.com/uber/manifold) | A model-agnostic visual debugging tool for machine learning | JavaScript | 999 | Apache License 2.0 |
-| [causalml](https://github.com/uber/causalml) | Uplift modeling and causal inference with machine learning algorithms | Python | 732 | Other |
+| [manifold](https://github.com/uber/manifold) | A model-agnostic visual debugging tool for machine learning | JavaScript | 1000 | Apache License 2.0 |
+| [causalml](https://github.com/uber/causalml) | Uplift modeling and causal inference with machine learning algorithms | Python | 733 | Other |
 | [petastorm](https://github.com/uber/petastorm) | Petastorm library enables single machine or distributed training and evaluation of deep learning models from datasets in Apache Parquet format. It supports ML frameworks such as Tensorflow, Pytorch, and PySpark and can be used from pure Python code. | Python | 728 | Apache License 2.0 |
 | [marmaray](https://github.com/uber/marmaray) | Generic Data Ingestion & Dispersal Library for Hadoop | Java | 354 | Other |
 | [react-vis-force](https://github.com/uber/react-vis-force) | d3-force graphs as React Components. | JavaScript | 325 | Other |

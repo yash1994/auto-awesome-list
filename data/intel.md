@@ -1,8 +1,8 @@
 # [Intel](https://github.com/intel)
 
-Intel currently holds 661 public repositories out of which 17 are related to data science and machine learning.
+Intel currently holds 662 public repositories out of which 17 are related to data science and machine learning.
 
- ### Last Updated On:10-02-20
+ ### Last Updated On:11-02-20
 
 ## Newly Added
 
@@ -15,7 +15,7 @@ Intel currently holds 661 public repositories out of which 17 are related to dat
 
 | Name | Description | Language | Stars | License |
 | ---- | ----------- | :--------: | :-----: | :-------: |
- | [mkl-dnn](https://github.com/intel/mkl-dnn) | Deep Neural Network Library (DNNL) | C++ | 1799 | Apache License 2.0 |
+ | [mkl-dnn](https://github.com/intel/mkl-dnn) | Deep Neural Network Library (DNNL) | C++ | 1800 | Apache License 2.0 |
 | [caffe](https://github.com/intel/caffe) | This fork of BVLC/Caffe is dedicated to improving performance of this deep learning framework when running on CPU, in particular Intel® Xeon processors. | C++ | 769 | Other |
 | [clDNN](https://github.com/intel/clDNN) | Compute Library for Deep Neural Networks (clDNN) | C++ | 509 | N/A |
 | [compute-runtime](https://github.com/intel/compute-runtime) | Intel(R) Graphics Compute Runtime for OpenCL(TM). Replaces Beignet for Gen8 (Broadwell) and beyond. | C++ | 406 | MIT License |

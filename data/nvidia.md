@@ -1,15 +1,15 @@
 # [NVIDIA](https://github.com/IBM)
 
-NVIDIA currently holds 1233 public repositories out of which 59 are related to data science and machine learning.
+NVIDIA currently holds 1235 public repositories out of which 59 are related to data science and machine learning.
 
- ### Last Updated On:10-02-20
+ ### Last Updated On:11-02-20
 
 ## Newly Added
 
 | Name | Description | Language | Stars | License |
 | ---- | ----------- | :--------: | :-----: | :-------: |
+| [clai](https://github.com/IBM/clai) | Command Line Artificial Intelligence or CLAI is an open-sourced project from IBM Research aimed to bring the power of AI to the command line interface.  | Python | 40 | MIT License |
 | [bLVNet-TAM](https://github.com/IBM/bLVNet-TAM) | The official Codes for NeurIPS 2019 paper. Quanfu Fan, Ricarhd Chen, Hilde Kuehne, Marco Pistoia, David Cox, "More Is Less: Learning Efficient Video Representations by Temporal Aggregation Modules" | Python | 29 | Apache License 2.0 |
-| [clai](https://github.com/IBM/clai) | Command Line Artificial Intelligence or CLAI is an open-sourced project from IBM Research aimed to bring the power of AI to the command line interface.  | Python | 22 | MIT License |
 | [node-red-tensorflowjs](https://github.com/IBM/node-red-tensorflowjs) | Node-RED node with a TensorFlow.js Object Detection model | JavaScript | 15 | Apache License 2.0 |
 | [probzelus](https://github.com/IBM/probzelus) | ProbZelus is a library to extends the synchronous programming language Zelus with probabilistic programming. | OCaml | 11 | Apache License 2.0 |
 | [SIC](https://github.com/IBM/SIC) | Source code for paper Mroueh, Sercu, Rigotti, Padhi, dos Santos, "Sobolev Independence Criterion", NeurIPS 2019 | Python | 9 | Apache License 2.0 |
@@ -45,21 +45,21 @@ NVIDIA currently holds 1233 public repositories out of which 59 are related to d
 | Name | Description | Language | Stars | License |
 | ---- | ----------- | :--------: | :-----: | :-------: |
  | [css-gridish](https://github.com/IBM/css-gridish) | Automatically build your grid design’s CSS Grid code, CSS Flexbox fallback code, Sketch artboards, and Chrome extension. | CSS | 2208 | Other |
-| [adversarial-robustness-toolbox](https://github.com/IBM/adversarial-robustness-toolbox) | Python library for adversarial machine learning (evasion, extraction, poisoning, verification, certification) with attacks and defences for neural networks, logistic regression, decision trees, SVM, gradient boosted trees, Gaussian processes and more with multiple framework support | Python | 1261 | MIT License |
-| [pytorch-seq2seq](https://github.com/IBM/pytorch-seq2seq) | An open source framework for seq2seq models in PyTorch. | Python | 1174 | Apache License 2.0 |
-| [kui](https://github.com/IBM/kui) | A hybrid command-line/UI development experience for cloud-native development | TypeScript | 882 | Apache License 2.0 |
-| [AIF360](https://github.com/IBM/AIF360) | A comprehensive set of fairness metrics for datasets and machine learning models, explanations for these metrics, and algorithms to mitigate bias in datasets and models. | Python | 834 | Apache License 2.0 |
+| [adversarial-robustness-toolbox](https://github.com/IBM/adversarial-robustness-toolbox) | Python library for adversarial machine learning (evasion, extraction, poisoning, verification, certification) with attacks and defences for neural networks, logistic regression, decision trees, SVM, gradient boosted trees, Gaussian processes and more with multiple framework support | Python | 1262 | MIT License |
+| [pytorch-seq2seq](https://github.com/IBM/pytorch-seq2seq) | An open source framework for seq2seq models in PyTorch. | Python | 1175 | Apache License 2.0 |
+| [kui](https://github.com/IBM/kui) | A hybrid command-line/UI development experience for cloud-native development | TypeScript | 883 | Apache License 2.0 |
+| [AIF360](https://github.com/IBM/AIF360) | A comprehensive set of fairness metrics for datasets and machine learning models, explanations for these metrics, and algorithms to mitigate bias in datasets and models. | Python | 835 | Apache License 2.0 |
 | [FfDL](https://github.com/IBM/FfDL) | Fabric for Deep Learning (FfDL, pronounced fiddle) is a Deep Learning Platform offering TensorFlow, Caffe, PyTorch etc. as a Service on Kubernetes | Go | 585 | Apache License 2.0 |
 | [elasticsearch-spark-recommender](https://github.com/IBM/elasticsearch-spark-recommender) | Use Jupyter Notebooks to demonstrate how to build a Recommender with Apache Spark & Elasticsearch | HTML | 574 | Apache License 2.0 |
 | [AIX360](https://github.com/IBM/AIX360) | Interpretability and explainability of data and machine learning models | Python | 473 | Apache License 2.0 |
-| [watson-banking-chatbot](https://github.com/IBM/watson-banking-chatbot) | A chatbot for banking that uses the Watson Assistant, Discovery, Natural Language Understanding and Tone Analyzer services. | JavaScript | 179 | Apache License 2.0 |
+| [watson-banking-chatbot](https://github.com/IBM/watson-banking-chatbot) | A chatbot for banking that uses the Watson Assistant, Discovery, Natural Language Understanding and Tone Analyzer services. | JavaScript | 180 | Apache License 2.0 |
 | [powerai-counting-cars](https://github.com/IBM/powerai-counting-cars) | Run a Jupyter Notebook to detect, track, and count cars in a video using PowerAI Vision and OpenCV | Jupyter Notebook | 174 | Apache License 2.0 |
 | [differential-privacy-library](https://github.com/IBM/differential-privacy-library) | Diffprivlib: The IBM Differential Privacy Library | Python | 170 | MIT License |
 | [tensorflow-hangul-recognition](https://github.com/IBM/tensorflow-hangul-recognition) | Handwritten Korean Character Recognition with TensorFlow and Android | Python | 162 | Apache License 2.0 |
 | [watson-online-store](https://github.com/IBM/watson-online-store) | Learn how to use Watson Assistant and Watson Discovery. This application demonstrates a simple abstraction of a chatbot interacting with a Cloudant NoSQL database, using a Slack UI. | Python | 142 | Apache License 2.0 |
 | [watson-assistant-slots-intro](https://github.com/IBM/watson-assistant-slots-intro) | A Chatbot for ordering a pizza that demonstrates how using the IBM Watson Assistant Slots feature, one can fill out an order, form, or profile. | JavaScript | 115 | Apache License 2.0 |
 | [spark-tpc-ds-performance-test](https://github.com/IBM/spark-tpc-ds-performance-test) | Use the TPC-DS benchmark to test Spark SQL performance | Jupyter Notebook | 99 | Apache License 2.0 |
-| [deep-learning-language-model](https://github.com/IBM/deep-learning-language-model) | A Code Pattern focusing on how to train a machine learning language model while using Keras and Tensorflow | Jupyter Notebook | 84 | N/A |
+| [deep-learning-language-model](https://github.com/IBM/deep-learning-language-model) | A Code Pattern focusing on how to train a machine learning language model while using Keras and Tensorflow | Jupyter Notebook | 85 | N/A |
 | [drones-iot-visual-recognition](https://github.com/IBM/drones-iot-visual-recognition) | Save Lives with Drones / IoT / Visual Recognition - Call for Code Hands on Lab | N/A | 78 | Apache License 2.0 |
 | [starcraft2-replay-analysis](https://github.com/IBM/starcraft2-replay-analysis) | A jupyter notebook that provides analysis for StarCraft 2 replays | Jupyter Notebook | 76 | Apache License 2.0 |
 | [build-knowledge-base-with-domain-specific-documents](https://github.com/IBM/build-knowledge-base-with-domain-specific-documents) | Create a knowledge base using domain specific documents and the mammoth python library | Jupyter Notebook | 71 | Apache License 2.0 |

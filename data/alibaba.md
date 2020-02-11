@@ -2,7 +2,7 @@
 
 Alibaba currently holds 298 public repositories out of which 15 are related to data science and machine learning.
 
- ### Last Updated On:10-02-20
+ ### Last Updated On:11-02-20
 
 ## Newly Added
 
@@ -16,10 +16,10 @@ Alibaba currently holds 298 public repositories out of which 15 are related to d
 | Name | Description | Language | Stars | License |
 | ---- | ----------- | :--------: | :-----: | :-------: |
  | [BizCharts](https://github.com/alibaba/BizCharts) | Powerful data visualization library based on G2 and React. | JavaScript | 4842 | MIT License |
-| [MNN](https://github.com/alibaba/MNN) | MNN is a lightweight deep neural network inference engine. | C++ | 3501 | N/A |
-| [x-deeplearning](https://github.com/alibaba/x-deeplearning) | An industrial deep learning framework for high-dimension sparse data | PureBasic | 3198 | Apache License 2.0 |
-| [transmittable-thread-local](https://github.com/alibaba/transmittable-thread-local) | 📌 The missing Java™ std lib(simple & 0-dependency) for framework/middleware, provide an enhanced InheritableThreadLocal that transmits ThreadLocal value between threads even using thread pooling components. | Kotlin | 2557 | Apache License 2.0 |
-| [euler](https://github.com/alibaba/euler) | A distributed graph deep learning framework. | C++ | 1978 | Apache License 2.0 |
+| [MNN](https://github.com/alibaba/MNN) | MNN is a lightweight deep neural network inference engine. | C++ | 3503 | N/A |
+| [x-deeplearning](https://github.com/alibaba/x-deeplearning) | An industrial deep learning framework for high-dimension sparse data | PureBasic | 3200 | Apache License 2.0 |
+| [transmittable-thread-local](https://github.com/alibaba/transmittable-thread-local) | 📌 The missing Java™ std lib(simple & 0-dependency) for framework/middleware, provide an enhanced InheritableThreadLocal that transmits ThreadLocal value between threads even using thread pooling components. | Kotlin | 2558 | Apache License 2.0 |
+| [euler](https://github.com/alibaba/euler) | A distributed graph deep learning framework. | C++ | 1979 | Apache License 2.0 |
 | [Alink](https://github.com/alibaba/Alink) | Alink is the Machine Learning algorithm platform based on Flink, developed by the PAI team of Alibaba computing platform.  | Java | 1939 | Apache License 2.0 |
 | [gym-starcraft](https://github.com/alibaba/gym-starcraft) | StarCraft environment for OpenAI Gym, based on Facebook's TorchCraft. (In progress)  | Python | 498 | N/A |
 | [nquery](https://github.com/alibaba/nquery) | Generic SQL engine for Web and Big-data. | JavaScript | 313 | N/A |

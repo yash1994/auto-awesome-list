@@ -2,7 +2,7 @@
 
 Salesforce currently holds 158 public repositories out of which 19 are related to data science and machine learning.
 
- ### Last Updated On:10-02-20
+ ### Last Updated On:11-02-20
 
 ## Newly Added
 
@@ -17,8 +17,8 @@ Salesforce currently holds 158 public repositories out of which 19 are related t
 | ---- | ----------- | :--------: | :-----: | :-------: |
  | [decaNLP](https://github.com/salesforce/decaNLP) | The Natural Language Decathlon: A Multitask Challenge for NLP | Python | 2021 | BSD 3-Clause "New" or "Revised" License |
 | [TransmogrifAI](https://github.com/salesforce/TransmogrifAI) | TransmogrifAI (pronounced trăns-mŏgˈrə-fī) is an AutoML library for building modular, reusable, strongly typed machine learning workflows on Apache Spark with minimal hand-tuning | Scala | 1789 | BSD 3-Clause "New" or "Revised" License |
-| [awd-lstm-lm](https://github.com/salesforce/awd-lstm-lm) | LSTM and QRNN Language Model Toolkit for PyTorch | Python | 1600 | BSD 3-Clause "New" or "Revised" License |
-| [pytorch-qrnn](https://github.com/salesforce/pytorch-qrnn) | PyTorch implementation of the Quasi-Recurrent Neural Network - up to 16 times faster than NVIDIA's cuDNN LSTM | Python | 1129 | BSD 3-Clause "New" or "Revised" License |
+| [awd-lstm-lm](https://github.com/salesforce/awd-lstm-lm) | LSTM and QRNN Language Model Toolkit for PyTorch | Python | 1601 | BSD 3-Clause "New" or "Revised" License |
+| [pytorch-qrnn](https://github.com/salesforce/pytorch-qrnn) | PyTorch implementation of the Quasi-Recurrent Neural Network - up to 16 times faster than NVIDIA's cuDNN LSTM | Python | 1130 | BSD 3-Clause "New" or "Revised" License |
 | [WikiSQL](https://github.com/salesforce/WikiSQL) | A large annotated semantic parsing corpus for developing natural language interfaces. | HTML | 767 | BSD 3-Clause "New" or "Revised" License |
 | [matchbox](https://github.com/salesforce/matchbox) | Write PyTorch code at the level of individual examples, then run it efficiently on minibatches. | Python | 492 | N/A |
 | [Argus](https://github.com/salesforce/Argus) | Time series monitoring and alerting platform. | Java | 435 | BSD 3-Clause "New" or "Revised" License |
