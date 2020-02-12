@@ -53,4 +53,5 @@ Note: Lists contains some stats for every tool repository. These stats may be wr
 ## Todos
 
 - [x] Add more non profit organizations.
+- [ ] Add analysis based on repositories
 - [ ] Add task based classification.
