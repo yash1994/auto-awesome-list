@@ -4,7 +4,7 @@ Auto-awesome-list is auto generated list of machine learning and data science to
 
 Inspired by [Papers With Code](https://paperswithcode.com/) and [Awesome](https://github.com/sindresorhus/awesome).
 
-Note: Lists contains some stats for every tool repository. These stats may be wrong because information is not getting fecthed in real-time. 
+Note: Lists contains some stats for every tool repository. These stats may be wrong because information is not getting fecthed in real-time.
 
 ## List of Organizations
 
@@ -50,8 +50,22 @@ Note: Lists contains some stats for every tool repository. These stats may be wr
 - [Tesla](data/tesla.md)
 - [Snap](data/snap.md)
 
+## Analysis of Machine Learning / Data Science Tools
+
+![distribution_of_programming_languages](plots/distribution_of_programming_languages.png)
+
+![portion_of_data_science___machine_learning_tools_over_all_repos](plots/portion_of_data_science___machine_learning_tools_over_all_repos.png)
+
+![distribution_of_stars](plots/distribution_of_stars.png)
+
+![repositories_created_over_time](plots/repositories_created_over_time.png)
+
+![repositories_updated_over_time](plots/repositories_updated_over_time.png)
+
+![common_data_science_tasks](plots/common_data_science_tasks.png)
+
 ## Todos
 
 - [x] Add more non profit organizations.
-- [ ] Add analysis based on repositories
+- [x] Add analysis based on repositories
 - [ ] Add task based classification.
