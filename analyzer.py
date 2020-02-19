@@ -6,12 +6,11 @@ from datetime import datetime, timedelta
 from collections import Counter
 from dateutil import parser
 from config import Config
-import numpy as np
-import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
 
 cfg = Config()
+
 
 def ngrams(s, n):
     s = s.lower()
@@ -231,6 +230,7 @@ class Fetcher:
 
         return stats
 
+
 class AnalysisPlotter:
     def __init__(self):
 
@@ -249,27 +249,27 @@ class AnalysisPlotter:
         return pd.io.json.json_normalize(data)
 
     def bar_plot_template(
-        self,
-        x_axis,
-        y_axis,
-        plot_title,
-        x_axis_title,
-        y_axis_title,
-        texttemplate="%{y}",
-        textposition="outside",
-        colorscale="Blugrn",
-        showscale=False,
-        width=None,
-        height=None):
+            self,
+            x_axis,
+            y_axis,
+            plot_title,
+            x_axis_title,
+            y_axis_title,
+            texttemplate="%{y}",
+            textposition="outside",
+            colorscale="Blugrn",
+            showscale=False,
+            width=None,
+            height=None):
 
         fig = go.Figure(data=go.Bar(
             x=x_axis,
             y=y_axis,
             texttemplate=texttemplate,
             textposition=textposition,
-            marker={"color":y_axis,
-                    "colorscale":colorscale,
-                    "showscale":showscale}
+            marker={"color": y_axis,
+                    "colorscale": colorscale,
+                    "showscale": showscale}
         ))
 
         fig.update_layout(
@@ -281,25 +281,26 @@ class AnalysisPlotter:
 
         # fig.show()
         if width and height:
-            fig.write_image(self.plots_dir+plot_title.replace(" ","_").replace("/","_").lower()+".png", width=width, height=height)
+            fig.write_image(self.plots_dir + plot_title.replace(" ", "_").replace("/", "_").lower() + ".png",
+                            width=width, height=height)
         else:
-            fig.write_image(self.plots_dir+plot_title.replace(" ","_").replace("/","_").lower()+".png")
+            fig.write_image(self.plots_dir + plot_title.replace(" ", "_").replace("/", "_").lower() + ".png")
 
     def scatter_plot_template(
-        self,
-        x_axis,
-        y_axis,
-        plot_title,
-        x_axis_title,
-        y_axis_title,
-        mode="lines+markers+text",
-        texttemplate="%{y}",
-        textposition="top right",
-        colorscale="Blugrn",
-        size=10,
-        showscale=False,
-        width=None,
-        height=None):
+            self,
+            x_axis,
+            y_axis,
+            plot_title,
+            x_axis_title,
+            y_axis_title,
+            mode="lines+markers+text",
+            texttemplate="%{y}",
+            textposition="top right",
+            colorscale="Blugrn",
+            size=10,
+            showscale=False,
+            width=None,
+            height=None):
 
         fig = go.Figure(data=go.Scatter(
             x=x_axis,
@@ -308,10 +309,10 @@ class AnalysisPlotter:
             textposition=textposition,
             texttemplate=texttemplate,
             marker={
-                "color":y_axis,
-                "colorscale":colorscale,
-                "size":size
-                }
+                "color": y_axis,
+                "colorscale": colorscale,
+                "size": size
+            }
         ))
 
         fig.update_layout(
@@ -323,20 +324,23 @@ class AnalysisPlotter:
 
         # fig.show()
         if width and height:
-            fig.write_image(self.plots_dir+plot_title.replace(" ","_").replace("/","_").lower()+".png", width=width, height=height)
+            fig.write_image(self.plots_dir + plot_title.replace(" ", "_").replace("/", "_").lower() + ".png",
+                            width=width, height=height)
         else:
-            fig.write_image(self.plots_dir+plot_title.replace(" ","_").replace("/","_").lower()+".png")
+            fig.write_image(self.plots_dir + plot_title.replace(" ", "_").replace("/", "_").lower() + ".png")
 
     def plot_all(self):
 
         filtered = self.repo_data[self.repo_data["filtered"] == True]
         unfiltered = self.repo_data[self.repo_data["filtered"] == False]
 
-        filtered["created_at"] = filtered["created_at"].apply(pd.to_datetime).apply(lambda x: x.tz_localize(None))
-        filtered["updated_at"] = filtered["updated_at"].apply(pd.to_datetime).apply(lambda x: x.tz_localize(None))
+        filtered.loc[:, "created_at"] = filtered["created_at"].apply(pd.to_datetime).apply(
+            lambda x: x.tz_localize(None))
+        filtered.loc[:, "updated_at"] = filtered["updated_at"].apply(pd.to_datetime).apply(
+            lambda x: x.tz_localize(None))
 
         # consider jupyter notebook as python
-        filtered[filtered["language"]=="Jupyter Notebook"]["language"] = "Python"
+        filtered.loc[filtered["language"] == "Jupyter Notebook", "language"] = "Python"
 
         # Distribution of programming languages over all repos
         grpby_languages = filtered.groupby(["language"]).size()
@@ -356,7 +360,7 @@ class AnalysisPlotter:
         binned = pd.cut(filtered["stargazers_count"], bins=bins).value_counts(sort=False)
 
         self.bar_plot_template(
-            [str(bins[i])+ "-" +str(bins[i+1]) for i in range(len(bins)-1)],
+            [str(bins[i]) + "-" + str(bins[i + 1]) for i in range(len(bins) - 1)],
             binned.values,
             "Distribution of Stars",
             "Stars in range",
@@ -367,7 +371,7 @@ class AnalysisPlotter:
         # Portion of DS/ML tool over all repositories
         grpby_org_not_filtered = unfiltered.groupby("owner.login").size()
         grpby_org_all = self.repo_data.groupby("owner.login").size()
-        portion = ((1 - (grpby_org_not_filtered/grpby_org_all)) * 100).sort_values(ascending=False)
+        portion = ((1 - (grpby_org_not_filtered / grpby_org_all)) * 100).sort_values(ascending=False)
         portion = portion[portion > 5.0].astype(int)
 
         self.scatter_plot_template(
@@ -395,15 +399,17 @@ class AnalysisPlotter:
 
         # Repositories updated over time
         labels = ["Last 15 days", "Last Month", "Last Six Months"]
-        y_axis = [filtered[filtered["updated_at"] > (datetime.now() - timedelta(days=i))].shape[0] for i in [15, 30, 180]]
-        y_axis = [int(val/filtered.shape[0]*100) for val in y_axis]
+        y_axis = [filtered[filtered["updated_at"] > (datetime.now() - timedelta(days=i))].shape[0] for i in
+                  [15, 30, 180]]
+        y_axis = [int(val / filtered.shape[0] * 100) for val in y_axis]
 
         self.bar_plot_template(
             labels,
             y_axis,
             "Repositories Updated over time",
             "Timespan",
-            "Percentage of Repos"
+            "Percentage of Repos",
+            texttemplate="%{y}%"
         )
 
         # Common Github ML_DS tasks
@@ -449,7 +455,6 @@ class AnalysisPlotter:
         )
 
 
-
 class Ranker:
     def __init__(self):
         self.readme_file = "README.md"
@@ -482,4 +487,4 @@ if __name__ == "__main__":
     analysis_plotter = AnalysisPlotter()
     stats = fetcher.fetch_data()
     ranker.re_rank(stats)
-    ap.plot_all()
+    analysis_plotter.plot_all()
