@@ -281,10 +281,9 @@ class AnalysisPlotter:
 
         # fig.show()
         if width and height:
-            fig.write_image(self.plots_dir + plot_title.replace(" ", "_").replace("/", "_").lower() + ".png",
-                            width=width, height=height)
+            fig.write_image(self.plots_dir + plot_title.replace(" ", "_").replace("/", "_").lower() + ".svg")
         else:
-            fig.write_image(self.plots_dir + plot_title.replace(" ", "_").replace("/", "_").lower() + ".png")
+            fig.write_image(self.plots_dir + plot_title.replace(" ", "_").replace("/", "_").lower() + ".svg")
 
     def scatter_plot_template(
             self,
@@ -324,10 +323,9 @@ class AnalysisPlotter:
 
         # fig.show()
         if width and height:
-            fig.write_image(self.plots_dir + plot_title.replace(" ", "_").replace("/", "_").lower() + ".png",
-                            width=width, height=height)
+            fig.write_image(self.plots_dir + plot_title.replace(" ", "_").replace("/", "_").lower() + ".svg")
         else:
-            fig.write_image(self.plots_dir + plot_title.replace(" ", "_").replace("/", "_").lower() + ".png")
+            fig.write_image(self.plots_dir + plot_title.replace(" ", "_").replace("/", "_").lower() + ".svg")
 
     def plot_all(self):
 
@@ -454,37 +452,8 @@ class AnalysisPlotter:
             height=768
         )
 
-
-class Ranker:
-    def __init__(self):
-        self.readme_file = "README.md"
-
-    def re_rank(self, stats):
-        with open(self.readme_file, "r") as infile:
-            txt = infile.read()
-
-        sorted_order = sorted(stats, key=lambda s: s[1], reverse=True)
-
-        new_order = "\n\n"
-
-        for so in sorted_order:
-            new_order += "- [{}](data/{}.md)\n".format(so[0], so[0].lower())
-
-        new_order += "\n"
-
-        txt = re.sub(r"- \[[A-Za-z0-9\s\-\.]+\]\(.*\)\n", "", txt)
-        txt = txt.split("\n\n\n")
-
-        new_readme_str = txt[0] + new_order + txt[1]
-
-        with open(self.readme_file, "w") as outfile:
-            outfile.write(new_readme_str)
-
-
 if __name__ == "__main__":
     fetcher = Fetcher()
-    ranker = Ranker()
-    analysis_plotter = AnalysisPlotter()
     stats = fetcher.fetch_data()
-    ranker.re_rank(stats)
+    analysis_plotter = AnalysisPlotter()
     analysis_plotter.plot_all()

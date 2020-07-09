@@ -52,17 +52,17 @@ Note: Lists contains some stats for every tool repository. These stats may be wr
 
 ## Analysis of Machine Learning / Data Science Tools
 
-![distribution_of_programming_languages](plots/distribution_of_programming_languages.png)
+![distribution_of_programming_languages](plots/distribution_of_programming_languages.svg)
 
-![portion_of_data_science___machine_learning_tools_over_all_repos](plots/portion_of_data_science___machine_learning_tools_over_all_repos.png)
+![portion_of_data_science___machine_learning_tools_over_all_repos](plots/portion_of_data_science___machine_learning_tools_over_all_repos.svg)
 
-![distribution_of_stars](plots/distribution_of_stars.png)
+![distribution_of_stars](plots/distribution_of_stars.svg)
 
-![repositories_created_over_time](plots/repositories_created_over_time.png)
+![repositories_created_over_time](plots/repositories_created_over_time.svg)
 
-![repositories_updated_over_time](plots/repositories_updated_over_time.png)
+![repositories_updated_over_time](plots/repositories_updated_over_time.svg)
 
-![common_data_science_tasks](plots/common_data_science_tasks.png)
+![common_data_science_tasks](plots/common_data_science_tasks.svg)
 
 ## Todos
 
