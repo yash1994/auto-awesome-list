@@ -281,7 +281,8 @@ class AnalysisPlotter:
 
         # fig.show()
         if width and height:
-            fig.write_image(self.plots_dir + plot_title.replace(" ", "_").replace("/", "_").lower() + ".svg")
+            fig.write_image(self.plots_dir + plot_title.replace(" ", "_").replace("/", "_").lower() + ".svg",
+            width=width, height=height)
         else:
             fig.write_image(self.plots_dir + plot_title.replace(" ", "_").replace("/", "_").lower() + ".svg")
 
@@ -323,7 +324,8 @@ class AnalysisPlotter:
 
         # fig.show()
         if width and height:
-            fig.write_image(self.plots_dir + plot_title.replace(" ", "_").replace("/", "_").lower() + ".svg")
+            fig.write_image(self.plots_dir + plot_title.replace(" ", "_").replace("/", "_").lower() + ".svg",
+            width=width, height=height)
         else:
             fig.write_image(self.plots_dir + plot_title.replace(" ", "_").replace("/", "_").lower() + ".svg")
 
